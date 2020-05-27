@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Qaclickacademy.Listeners"/>
+  </listeners>
+  <test name="validatetitletest(failed)">
+    <classes>
+      <class name="Qaclickacademy.ValidateTitleTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validateTitle"/>
+          <include name="loadURL"/>
+        </methods>
+      </class> <!-- Qaclickacademy.ValidateTitleTest -->
+    </classes>
+  </test> <!-- validatetitletest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
